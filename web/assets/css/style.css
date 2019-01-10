@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR|Roboto");
+html {
+  font-size: 10px; }
+
+body {
+  font-family: 'Noto Sans KR','Roboto', sans-serif; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  font-size: 0; }
+
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+  padding: 0; }
+
+a {
+  color: #000;
+  text-decoration: none;
+  font-size: inherit;
+  color: inherit; }
+
+a:hover {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+.card__item {
+  border: 1px solid #333;
+  padding: 0; }
+
+.card__head {
+  padding: 10px 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 1px solid #333; }
+
+.card__content {
+  padding: 20px;
+  padding-bottom: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.card__column {
+  font-size: 16px;
+  color: #333;
+  font-weight: 500; }
+
+.card__column.type-left {
+  float: left; }
+
+.card__column.type-right {
+  float: right; }
+
+.card__tit, .card__txt1 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.card__tit {
+  margin-top: 13px; }
+
+.card__txt1 {
+  margin-top: 11px; }
+
+.info__item {
+  position: relative;
+  float: left;
+  font-size: 18px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.info__item + .info__item:before {
+  content: '';
+  position: absolute;
+  width: 1px;
+  left: 0;
+  top: 12px;
+  bottom: 12px;
+  background-color: #666; }
+
+.info__item:first-child .info__link {
+  padding-left: 0; }
+
+.info__link {
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 8px 20px; }
+
+.f1-tit {
+  font-size: 22px;
+  color: #333;
+  font-weight: 400; }
+  @media only screen and (max-width: 480px) {
+    .f1-tit {
+      font-size: 2.0rem; } }
+
+.f1-txt {
+  font-size: 20px;
+  color: #666;
+  font-weight: 300; }
+  @media only screen and (max-width: 480px) {
+    .f1-txt {
+      font-size: 1.5rem; } }
+
+/*# sourceMappingURL=style.css.map */
